@@ -50,3 +50,24 @@
 .menu-height { height: 50px;}
 .content-height { height: 600px;}
 .footer-height { height: 50px;}
+
+.row:after {
+    content: " ";
+    clear: both;
+    display: block;
+
+}
+
+.wrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.header-top-height { height: 30px;}
+.header-height { height: 200px;}
+.menu-height { height: 50px;}
+.content-height { height: 600px;}
+.big-footer-height { height: 300px;}
+.footer-height { height: 30px;}
